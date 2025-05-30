@@ -3,7 +3,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { PopulationResponse } from "@/types";
 import { AlertCircleIcon } from "lucide-react";
 import { ResultTable } from "./result-table";
-
+export const dynamic = "force-dynamic";
 enum Cities {
   Regina = "319f7232-d7e7-4899-b057",
   MooseJaw = "01aa96ae-d695-418f-ad08",
